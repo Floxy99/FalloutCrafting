@@ -2,5 +2,5 @@
 </script>
 
 <template>
-  <YourItems />
+  <ItemInputField />
 </template>

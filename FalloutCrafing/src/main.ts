@@ -10,7 +10,7 @@ import Aura from '@primeuix/themes/aura';
 
 import AutoComplete from 'primevue/autocomplete';
 import FloatLabel from 'primevue/floatlabel';
-import YourItems from './views/YourItems.vue';
+import ItemInputField from './views/ItemInputField.vue';
 
 
 const app = createApp(App)
@@ -30,6 +30,6 @@ app.use(PrimeVue, {
 
 app.component('AutoComplete', AutoComplete)
 app.component('FloatLabel', FloatLabel)
-app.component('YourItems', YourItems)
+app.component('ItemInputField', ItemInputField)
 
 app.mount('#app')
